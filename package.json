@@ -1,0 +1,34 @@
+{
+  "name": "image-search-abstraction-layer",
+  "version": "1.0.0",
+  "description": "For the Free Code Camp Api Project Image Search Abstraction Layer",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9",
+    "qwant-api": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabolopez90/image-search-abstraction-layer.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "express",
+    "freecodecamp",
+    "api"
+  ],
+  "author": "Gabriel Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabolopez90/image-search-abstraction-layer/issues"
+  },
+  "homepage": "https://github.com/gabolopez90/image-search-abstraction-layer#readme"
+}
