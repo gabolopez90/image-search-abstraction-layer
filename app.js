@@ -4,14 +4,14 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const qwant = require("qwant-api");
 var app = express();
-var mlab = "mongodb://gabo:user@ds117271.mlab.com:17271/to-do";
+var mlab = process.env.MLAB;
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 var imgSrch = require("./models/imgSrch");
 
 app.use(bodyParser.json());
 app.use(cors());
 
-mongoose.connect("mongodb://gabo:user@ds117271.mlab.com:17271/to-do");
+mongoose.connect(mlab);
 app.use(express.static(__dirname+ "/public/"));
 
 app.get("/history/", (req, res)=>{

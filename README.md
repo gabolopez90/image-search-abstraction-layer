@@ -1,4 +1,4 @@
-![Mi Logo](https://github.com/gabolopez90/gabolopez90.github.io/blob/master/img/GL.ico)
+![Mi Logo](https://cdn.glitch.com/8f8d0bd5-66de-4e01-a6ea-23ea48f307ab%2FGL.jpg?1520966696522)
 
 
 # Image Search Abstraction Layer
